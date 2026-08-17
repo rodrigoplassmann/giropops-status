@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Ambiente local
+.env
+
+# Editores
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs locais
+*.log
+
+# Releases (artefatos gerados por scripts/build-releases.sh)
+releases/*.tar.gz
+releases/*.sha256
+!releases/.gitkeep
